@@ -1,0 +1,50 @@
+.standard {
+    background-color: #EFEFEF;
+    color: #490F0A;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.golden {
+    background-color: #FAD877;
+    color: #490F0A;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.red {
+    background-color: #F10C51;
+    color: #FAD877;
+    border-radius: 40px;
+    width: 100%;
+}
+
+.crimson {
+    background-color: #490F0A;
+    color: #FAD877;
+    border-radius: 100px;
+    width: 100%;
+}
+
+.loading {
+    pointer-events: none;
+    background-color: #783b36;
+}
+
+.disabled {
+    pointer-events: none;
+    background-color: #783b36;
+}
+
+button svg {
+    color: #FAD877;
+}
+
+.button-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    overflow: hidden;
+}
+

@@ -1,0 +1,68 @@
+.card-body {
+    /*width: 100%;
+    height: 100%;*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-body h6 {
+    color: #AAAAAA;
+    font-weight: medium;
+    font-size: 0.9em;
+}
+
+.card-body h5 {
+    color: black;
+    font-weight: 500;
+
+}
+
+.card-body h3 {
+    color: black;
+    font-family: "Formula Condensed Bold";
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.8em;
+    cursor: pointer;    
+}
+
+
+.card-picture {
+    width: 15em;
+    height: 15em;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    flex: 1.5 1 auto;
+    cursor: pointer;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap; /* Maybe not */
+}
+
+.card-body .dot {
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 100%;
+    background-color: #F10C51;
+}
+
+/*
+h4, h5, h6, svg {
+    color: #490F0A;
+}
+
+h5 {
+    font-family: "Formula Condensed Bold";
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+*/

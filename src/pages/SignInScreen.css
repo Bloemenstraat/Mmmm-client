@@ -1,0 +1,30 @@
+.signscreen-body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F4CCD1;
+    width: 100%;
+  }
+
+.signscreen-content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.signscreen-content .signin-buttons {
+    width: 70%;
+}
+
+.signscreen-content .signin-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 18px;
+}

@@ -1,0 +1,26 @@
+.onboarding-body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    width: 100%;
+
+    position: relative;
+}
+
+.onboarding-body svg {
+    cursor: pointer;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+}
+
+.onboarding-settings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /*width: 40%;*/
+}

@@ -1,0 +1,10 @@
+.likebar svg {
+    color: black;
+    cursor: pointer;
+}
+
+.likebar {
+    display: flex;
+    gap: 10px;
+}
+

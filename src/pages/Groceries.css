@@ -1,0 +1,45 @@
+.groceries-body {
+    background-color: #FFFFFF;
+    width: 100%;
+    min-height: 100vh;
+    /*display: flex;
+    justify-content: center;*/
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.groceries-body h3 {
+    color: black;
+    font-family: "Formula Condensed Bold";
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2.5em;
+}
+
+.groceries-content, .groceries-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.groceries-content {
+    gap: 15px;
+}
+
+
+.groceries-list p {
+    color: black;
+    font-weight: medium;
+}
+
+.groceries-back {
+    margin: 20px 0 30px 60px;
+
+}
+
+.groceries-body .back {
+    display: flex;
+    gap: 10px;
+    color: #490F0A;
+    font-weight: bold;
+}

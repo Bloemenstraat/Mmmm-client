@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Formula Condensed Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('assets/fonts/Formula Condensed Bold'), url('assets/fonts/FormulaCondensed-Bold.woff') format('woff');
+}
+
+:root {
+  font-family: 'DM Sans', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root, body {
+  margin: 0;
+  padding: 0;  
+}
+
+p {
+  color: #490F0A;
+  font-weight: 500;
+}
+
+a {
+  font-weight: 500;
+  color: #F10C51;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+  cursor: pointer;
+}
+
+
+
+h1 {
+  font-size: 3.2em;
+  font-family: "Formula Condensed Bold";
+  line-height: 1.1;
+  color: #F10C51;
+}
+
+h2 {
+  font-size: 3.2em;
+  font-family: "Formula Condensed Bold";
+  line-height: 1.1;
+  color: #490F0A;
+}
+
+input {
+  background-color: #EFEFEF;
+  color: #490F0A;
+  border-radius: 100px;
+  border: none;
+
+  min-height: 2.2em;
+  padding-left: 10px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

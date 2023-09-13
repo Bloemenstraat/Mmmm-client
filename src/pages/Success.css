@@ -1,0 +1,31 @@
+.success-body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+}
+
+.success-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.success-body p {
+    color: black;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: medium;
+}
+
+.success-body h1 {
+    font-size: 6em;
+    text-align: center;
+}
+

@@ -1,0 +1,121 @@
+.recipe-body {
+    background-color: #FFFFFF;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+}
+
+.recipe-content {
+    display: flex;
+    /*height: 2000px;*/
+    padding: 0 50px 0 100px;
+}
+
+.recipe-body img {
+    border-radius: 20px;
+    margin: 15px 0 15px 0;
+}
+
+.recipe-body h5 {
+    color: black;
+    font-weight: 500;
+}
+
+.recipe-body h3 {
+    color: black;
+    font-family: "Formula Condensed Bold";
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2.5em;
+}
+
+.recipe-illustration {
+    width: 50%;
+    /*display: flex;
+    flex-direction: column;
+    gap: 10px;*/
+}
+
+.recipe-instructions {
+    width: 50%;
+}
+
+.recipe-instructions ul {
+    padding-left: 20px; /* Maybe ??? */
+}
+
+.recipe-instructions li {
+    margin-bottom: 20px;
+}
+
+.recipe-instructions p {
+    color: black;
+    font-weight: medium;
+}
+
+p.step {
+    font-size: 1.3em;
+}
+
+/*
+.recipe-instructions li {
+    display: list-item;
+    list-style-position: inside;
+}
+*/
+
+.recipe-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap; /* Maybe not */
+}
+
+.recipe-body .dot {
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 100%;
+    background-color: #F10C51;
+}
+
+.recipe-ingredients {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.ingredient {
+    width: fit-content;
+    background-color: #FDD870;
+    color: #490F0A;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 70px;
+}
+
+.recipe-body .back {
+    display: flex;
+    gap: 10px;
+    color: #490F0A;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .recipe-content {
+      flex-direction: column;
+    }
+
+    .recipe-illustration {
+        width: 100%;
+    }
+    
+    .recipe-instructions {
+        width: 100%;
+    }
+  }
