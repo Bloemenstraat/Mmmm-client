@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './LanguageSelect.css';
 
 export default function LanguageSelect ({ setLanguage }: { setLanguage: React.Dispatch<React.SetStateAction<string>>}) {

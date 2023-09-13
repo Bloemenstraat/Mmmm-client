@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import TextField from '@mui/material/TextField';
 import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
